@@ -5,7 +5,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>TEXT!!!!!!!!</Text>
+        <Text style={styles.textBig}>TEXT!!!!!!!!</Text>
       </View>
     );
   }
@@ -18,4 +18,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  textBig: {
+      fontSize: 100,
+    },
 });
